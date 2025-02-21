@@ -1,0 +1,190 @@
+print('Hogwarts Ev Seçim Testine Hoş Geldiniz! 🧙‍♂️✨')
+
+# Ev puanlarını tanımla
+Gryffindor = 0
+Hufflepuff = 0
+Ravenclaw = 0
+Slytherin = 0
+
+# 1. Soru
+soru1 = int(input("1) Do you like dawn or dusk?\n"
+                  "1) Dawn 🌅\n"
+                  "2) Dusk 🌆\n"
+                  "Seçiminizi girin: "))
+
+if soru1 == 1:
+    Gryffindor += 1
+    Ravenclaw += 1
+elif soru1 == 2:
+    Hufflepuff += 1
+    Slytherin += 1
+
+# 2. Soru
+soru2 = int(input("2) When I’m dead, I want people to remember me as:\n"
+                  "1) The Good ❤️\n"
+                  "2) The Great 👑\n"
+                  "3) The Wise 🧠\n"
+                  "4) The Bold 🦁\n"
+                  "Seçiminizi girin: "))
+
+if soru2 == 1:
+    Hufflepuff += 2
+elif soru2 == 2:
+    Slytherin += 2
+elif soru2 == 3:
+    Ravenclaw += 2
+elif soru2 == 4:
+    Gryffindor += 2
+
+# 3. Soru
+soru3 = int(input("3) Which kind of instrument most pleases your ear?\n"
+                  "1) The violin 🎻\n"
+                  "2) The trumpet 🎺\n"
+                  "3) The piano 🎹\n"
+                  "4) The drum 🥁\n"
+                  "Seçiminizi girin: "))
+
+if soru3 == 1:
+    Slytherin += 4
+elif soru3 == 2:
+    Hufflepuff += 4
+elif soru3 == 3:
+    Ravenclaw += 4
+elif soru3 == 4:
+    Gryffindor += 4
+
+# 4. Soru
+soru4 = int(input("4) Which character do you admire the most?\n"
+                  "1) Harry Potter ⚡\n"
+                  "2) Hermione Granger 📖\n"
+                  "3) Severus Snape 🖤\n"
+                  "4) Cedric Diggory ⭐\n"
+                  "Seçiminizi girin: "))
+
+if soru4 == 1:
+    Gryffindor += 3
+elif soru4 == 2:
+    Ravenclaw += 3
+elif soru4 == 3:
+    Slytherin += 3
+elif soru4 == 4:
+    Hufflepuff += 3
+
+# 5. Soru
+soru5 = int(input("5) Which magical subject would you love to study the most?\n"
+                  "1) Defense Against the Dark Arts 🏹\n"
+                  "2) Potions 🧪\n"
+                  "3) Charms ✨\n"
+                  "4) Herbology 🌿\n"
+                  "Seçiminizi girin: "))
+
+if soru5 == 1:
+    Gryffindor += 2
+elif soru5 == 2:
+    Slytherin += 2
+elif soru5 == 3:
+    Ravenclaw += 2
+elif soru5 == 4:
+    Hufflepuff += 2
+
+# 6. Soru
+soru6 = int(input("6) If you could own one of these magical items, which would you choose?\n"
+                  "1) The Elder Wand 🪄\n"
+                  "2) The Invisibility Cloak 🦠\n"
+                  "3) The Resurrection Stone 💀\n"
+                  "4) A Firebolt Broomstick 🧹\n"
+                  "Seçiminizi girin: "))
+
+if soru6 == 1:
+    Slytherin += 3
+elif soru6 == 2:
+    Gryffindor += 3
+elif soru6 == 3:
+    Ravenclaw += 3
+elif soru6 == 4:
+    Hufflepuff += 3
+
+# 7. Soru
+soru7 = int(input("7) Which Hogwarts location do you find the most fascinating?\n"
+                  "1) The Great Hall 🍽️\n"
+                  "2) The Forbidden Forest 🌲\n"
+                  "3) The Library 📚\n"
+                  "4) The Slytherin Dungeon 🏰\n"
+                  "Seçiminizi girin: "))
+
+if soru7 == 1:
+    Hufflepuff += 2
+elif soru7 == 2:
+    Gryffindor += 2
+elif soru7 == 3:
+    Ravenclaw += 2
+elif soru7 == 4:
+    Slytherin += 2
+
+# 8. Soru
+soru8 = int(input("8) Which of these creatures would you want as a companion?\n"
+                  "1) Phoenix 🔥\n"
+                  "2) Hippogriff 🦅\n"
+                  "3) Basilisk 🐍\n"
+                  "4) Niffler 💎\n"
+                  "Seçiminizi girin: "))
+
+if soru8 == 1:
+    Gryffindor += 3
+elif soru8 == 2:
+    Ravenclaw += 3
+elif soru8 == 3:
+    Slytherin += 3
+elif soru8 == 4:
+    Hufflepuff += 3
+
+# 9. Soru
+soru9 = int(input("9) If you could master one spell, which would it be?\n"
+                  "1) Expelliarmus 🏹\n"
+                  "2) Avada Kedavra 💀\n"
+                  "3) Wingardium Leviosa 🪶\n"
+                  "4) Lumos 🔦\n"
+                  "Seçiminizi girin: "))
+
+if soru9 == 1:
+    Gryffindor += 2
+elif soru9 == 2:
+    Slytherin += 2
+elif soru9 == 3:
+    Ravenclaw += 2
+elif soru9 == 4:
+    Hufflepuff += 2
+
+# 10. Soru
+soru10 = int(input("10) Which of these Hogwarts professors would you like to learn from the most?\n"
+                   "1) Minerva McGonagall 🦁\n"
+                   "2) Severus Snape 🖤\n"
+                   "3) Filius Flitwick 📚\n"
+                   "4) Pomona Sprout 🌱\n"
+                   "Seçiminizi girin: "))
+
+if soru10 == 1:
+    Gryffindor += 2
+elif soru10 == 2:
+    Slytherin += 2
+elif soru10 == 3:
+    Ravenclaw += 2
+elif soru10 == 4:
+    Hufflepuff += 2
+
+# Sonuçları hesapla ve yazdır
+print("\n🏆 Hogwarts Ev Sonuçları 🏆")
+print(f"Gryffindor: {Gryffindor} puan")
+print(f"Hufflepuff: {Hufflepuff} puan")
+print(f"Ravenclaw: {Ravenclaw} puan")
+print(f"Slytherin: {Slytherin} puan")
+
+en_yuksek = max(Gryffindor, Hufflepuff, Ravenclaw, Slytherin)
+if en_yuksek == Gryffindor:
+    print("🏅 Tebrikler! Sen bir Gryffindor öğrencisisin! 🦁")
+elif en_yuksek == Hufflepuff:
+    print("🏅 Tebrikler! Sen bir Hufflepuff öğrencisisin! 🦡")
+elif en_yuksek == Ravenclaw:
+    print("🏅 Tebrikler! Sen bir Ravenclaw öğrencisisin! 🦅")
+else:
+    print("🏅 Tebrikler! Sen bir Slytherin öğrencisisin! 🐍")
